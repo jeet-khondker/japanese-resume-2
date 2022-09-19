@@ -8,7 +8,7 @@
 
 ## Version・バージョン
 
-2022 年 09 月 17 日　 2.0 - Code refactoring, Full-width screen **履歴書** display
+2022 年 09 月 19 日　 2.0 - Code refactoring, Full-width screen **履歴書** display
 
 ## Features & Functions・特徴と機能
 
