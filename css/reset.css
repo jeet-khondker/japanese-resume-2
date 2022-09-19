@@ -1,0 +1,43 @@
+/* Import of Google Web Font Family for 履歴書 */
+
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Shippori Mincho', serif; }
+}
+
+/* Reset Component Styling */
+html, 
+body, 
+h1, 
+h2, 
+h3, 
+ul, 
+li, 
+dl, 
+dt, 
+dd {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    vertical-align: bottom;
+    max-width: 100%;
+    height: auto;
+}
