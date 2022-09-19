@@ -1,0 +1,1497 @@
+/* Devices are as follows:
+    1. JioPhone 2 (240px)
+    2. Galaxy Fold (280px)
+    Target Width: 240px, 280px
+*/
+@media (min-width:1px) and (max-width:319px) {
+    main .resume .page {
+        display: none;
+    }
+
+    main .resume .extra-small-devices {
+        display: block;
+        padding: 5px;
+        margin: 50% auto;
+        text-align: center;
+    }
+
+    main .resume .extra-small-devices p.error {
+        font-size: 17px;
+        color: #ff0000;
+    }
+
+}
+
+/* Devices are as follows:
+    1. Galaxy S9+
+    2. Nokia Lumia 520
+    3. iPhone 4
+    4. iPhone 5/SE
+    Target Width: 320px
+*/
+@media (min-width:320px) and (max-width:352px) {
+
+    main .resume .page .personal-data .basic-data .name-furigana p.label, 
+    main .resume .page .personal-data .basic-data .name-furigana p.value, 
+    .label, 
+    .value, 
+    .data-label, 
+    .date-value {
+        font-size: 5px;
+    }
+
+    main .resume .page {
+        padding: 5mm;
+    }
+
+    main .resume .page .resume-header {
+        grid-template-columns: 15mm auto;
+        margin-bottom: 15pt;
+    }
+
+    main .resume .page .resume-header .resume-title {
+        font-size: 10pt;
+    }
+
+    main .resume .resume-header .resume-updated-date {
+        font-size: 5pt;
+    }
+
+    main .resume .page .personal-data .basic-data {
+        grid-template-columns: 10mm 30.25mm 5mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana {
+        grid-template-columns: 10mm 29.5mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana p.label, 
+    main .resume .page .personal-data .basic-data .name p.label, 
+    main .resume .page .personal-data .basic-data .birthday p.label, 
+    main .resume .page .personal-data .contact-info .nationality p.label, 
+    main .resume .page .personal-data .contact-info .address p.label {
+        padding: 0 5px;
+    }
+
+    main .resume .page .personal-data .basic-data .name {
+        grid-template-columns: 10mm 29.5mm auto;
+        line-height: normal;
+    }
+
+    main .resume .page .personal-data .basic-data .name p.value {
+        font-size: small;
+    }
+
+    img {
+        position: absolute;
+        width: 110px;
+        margin: 9mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday {
+        grid-template-columns: 10mm 29.5mm auto;
+    }
+
+    main .resume .page .personal-data .contact-info {
+        grid-template-columns: 10mm 30mm auto;
+        grid-template-rows: 13mm 15mm 13mm 15mm;
+    }
+
+    main .resume .page .personal-data .contact-info .nationality {
+        grid-template-columns: 10mm 30mm;
+    }
+
+    main .resume .page .personal-data .contact-info .address {
+        grid-template-columns: 10mm 30mm;
+    }
+
+    main .resume .page .education-and-career-history table thead tr.primary-heading, 
+    main .resume .page .objective table thead tr.primary-heading, 
+    main .resume .page .education-and-career-history table thead tr.secondary-heading {
+        height: 20px;
+    }
+
+    main .resume .page .motivation {
+        grid-template-columns: 30mm auto;
+    }
+
+    main .resume .page .motivation .self-promotion p.value {
+        padding: 0px 15px;
+        line-height: 15px;
+    }
+
+    main .resume .page .motivation .commuting-time .commuting-time-data {
+        grid-template-columns: auto 10mm 10mm 10mm 10mm;
+    }
+}
+
+/* Devices are as follows:
+    1. Pixel 4
+    Target Width: 353px
+*/
+@media (min-width:353px) and (max-width:359px) {
+
+    main .resume .page .personal-data .basic-data .name-furigana p.label, 
+    main .resume .page .personal-data .basic-data .name-furigana p.value, 
+    .label, 
+    .value, 
+    .data-label, 
+    .date-value {
+        font-size: 5.5pt;
+    }
+
+    main .resume .page {
+        padding: 5mm;
+    }
+
+    main .resume .page .resume-header {
+        grid-template-columns: 24mm auto;
+    }
+
+    main .resume .page .resume-header .resume-title {
+        font-size: 15pt;
+    }
+
+    main .resume .resume-header .resume-updated-date {
+        font-size: 15px;
+    }
+
+    main .resume .page .personal-data .basic-data {
+        grid-template-columns: 15mm 30mm 10mm auto; 
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana {
+        grid-template-columns: 15mm 30mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name {
+        grid-template-columns: 15mm 30mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name p.value {
+        font-size: 3pt;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday {
+        grid-template-columns: 15mm 30mm;
+    }
+
+    img {
+        margin: 35px 0px;
+    }
+
+    main .resume .page .personal-data .contact-info {
+        grid-template-columns: 15mm 29.75mm auto;
+    }
+
+    main .resume .page .personal-data .contact-info .nationality {
+        grid-template-columns: 15mm 30mm;
+    }
+
+    main .resume .page .personal-data .contact-info .address {
+        grid-template-columns: 15mm 30mm;
+    }
+
+    main .resume .page .motivation {
+        grid-template-columns: repeat(2, 33%);
+    }
+
+    main .resume .page .motivation .commuting-time .commuting-time-data {
+        grid-template-columns: auto 10mm 10mm 10mm 10mm;
+    }
+
+    main .resume .page .motivation .self-promotion p.value {
+        padding: 5px;
+        line-height: 11.5px;
+    }
+}
+
+/* Devices are as follows:
+    1. BlackBerry Z30
+    2. Galaxy Note 3
+    3. Galaxy Note II
+    4. Galaxy S III
+    5. Galaxy S8
+    6. Microsoft Lumia 950
+    7. Moto G4
+    8. Nexus 5
+    9. Samsung Galaxy S8+
+    10. Galaxy S5
+    Target Width: 360px
+*/
+@media (min-width:360px) and (max-width:374px) {
+
+    main .resume .page .personal-data .basic-data .name-furigana p.label, 
+    main .resume .page .personal-data .basic-data .name-furigana p.value, 
+    .label, 
+    .value, 
+    .data-label, 
+    .date-value {
+        font-size: 5.5pt;
+    }
+
+    main {
+        font-size: 8pt;
+    }
+
+    main .resume .page {
+        padding: 5mm;
+    }
+
+    main .resume .page .resume-header {
+        grid-template-columns: 35mm auto;
+        margin-bottom: 25pt;
+    }
+
+    main .resume .page .resume-header .resume-title {
+        font-size: 15pt;
+    }
+
+    main .resume .page .personal-data .basic-data {
+        grid-template-columns: 15mm 35mm 10mm auto;
+        grid-template-rows: 10mm 10mm 10mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana {
+        grid-template-columns: 15mm 35mm 10mm auto;
+        height: 10mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name {
+        grid-template-columns: 15mm 35mm 10mm auto;
+        height: 10mm;
+        line-height: 10mm;
+    }
+      
+    main .resume .page .personal-data .basic-data .name p.value {
+        font-size: 5.5pt;
+        letter-spacing: 2px;
+    }
+
+    main .resume .page .personal-data .basic-data .gender {
+        height: 30mm;
+    }
+
+    main .resume .page .personal-data .basic-data .id-photo {
+        height: 30mm;
+    }
+
+    main .resume .page .personal-data .basic-data .id-photo img {
+        height: 111px;
+        margin: 0 auto;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday {
+        grid-template-columns: 15mm 35mm 10mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday span.mobile-responsive {
+        content: "\a";
+        white-space: pre;
+    }
+
+    main .resume .page .personal-data .contact-info {
+        grid-template-columns: 15mm 20mm 10mm auto;
+        grid-template-rows: 10mm 15mm 10mm 15mm;
+    }
+
+    main .resume .page .personal-data .contact-info .nationality {
+        grid-template-columns: 15mm 20mm;
+    }
+
+    main .resume .page .personal-data .contact-info .address {
+        grid-template-columns: 15mm 20mm;
+    }
+
+    main .resume .page .personal-data .contact-info .email p.value {
+        padding: 11pt;
+    }
+
+    main .resume .page .education-and-career-history table tbody tr td.value, main .resume .page .objective table tbody tr td.value {
+        height: 0px;
+    }
+
+    main .resume .page .education-and-career-history table tbody tr td.value, main .resume .page .objective table tbody tr td.value {
+        line-height: 15px;
+    }
+
+    main .resume .page .motivation {
+        grid-template-columns: 30mm 25mm;
+    }
+
+    span.line-break {
+        content: "\a";
+        white-space: pre-wrap;
+    }
+
+    main .resume .page .motivation .commuting-time .commuting-time-data {
+        grid-template-columns: repeat(5, 20%);
+    }
+
+    main .resume .page .motivation .self-promotion p.label {
+        padding: 10px;
+    }
+
+    main .resume .page .motivation .self-promotion p.value {
+        line-height: normal;
+        padding: 5px;
+    }
+
+    main .resume .page .motivation .dependents .dependents-data {
+        grid-template-columns: auto 10mm;
+    }
+
+    main .resume .page .education-and-career-history table, main .resume .page .objective table {
+        width: 100%;
+    }
+    
+}
+
+/* Devices are as follows:
+    1. iPhone SE
+    2. iPhone 6/7/8
+    3. iPhone X
+    Target Width: 375px
+*/
+@media (min-width:375px) and (max-width:383px) {
+
+    main .resume .page .personal-data .basic-data .name-furigana p.label, 
+    main .resume .page .personal-data .basic-data .name-furigana p.value, 
+    .label, 
+    .value, 
+    .data-label, 
+    .date-value {
+        font-size: 5.5pt;
+    }
+
+    main .resume .page {
+        padding: 5mm;
+    }
+
+    main .resume .page .resume-header {
+        grid-template-columns: 30mm auto;
+    }
+
+    main .resume .page .resume-header .resume-title {
+        font-size: 20pt;
+    }
+
+    main .resume .resume-header .resume-updated-date {
+        font-size: 10px;
+    }
+
+    main .resume .page .personal-data .basic-data {
+        grid-template-columns: 15mm 30mm 10mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana {
+        grid-template-columns: 15mm 30mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name {
+        grid-template-columns: 15mm 30mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name p.value {
+        font-size: 3pt;
+        font-weight: bold;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday {
+        grid-template-columns: 15mm 30mm;
+    }
+
+    img {
+        margin: 20px 0px;
+    }
+
+    main .resume .page .personal-data .contact-info {
+        grid-template-columns: 15mm 29.75mm;
+    }
+
+    main .resume .page .personal-data .contact-info .nationality {
+        grid-template-columns: 15mm 29.75mm;
+    }
+
+    main .resume .page .personal-data .contact-info .address {
+        grid-template-columns: 15mm 29.75mm;
+    }
+
+    main .resume .page .motivation {
+        grid-template-columns: repeat(2, 33%);
+    }
+
+    main .resume .page .motivation .self-promotion p.value {
+        line-height: 18px;
+        height: 180px;
+        overflow: auto;
+
+    }
+
+    main .resume .page .motivation .commuting-time .commuting-time-data {
+        grid-template-columns: auto 5mm 10mm 10mm 10mm;
+    }
+    
+}
+
+/* Devices are as follows:
+    1. LG Optimus L70 (384px)
+    2. Nexus 4 (384px)
+    3. iPhone 12 Pro (390px)
+    Target Width: 384px, 390px
+*/
+@media (min-width:384px) and (max-width:392px) {
+
+    main .resume .page .personal-data .basic-data .name-furigana p.label, 
+    main .resume .page .personal-data .basic-data .name-furigana p.value, 
+    .label, 
+    .value, 
+    .data-label, 
+    .date-value {
+        font-size: 5pt;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana p.label {
+        padding: 7.5px;
+    }
+
+    main .resume .page {
+        padding: 5mm;
+    }
+
+    main .resume .page .resume-header {
+        grid-template-columns: 32mm auto;
+    }
+
+    main .resume .page .resume-header .resume-title {
+        font-size: 20pt;
+    }
+
+    main .resume .page .personal-data .basic-data {
+        grid-template-columns: 15mm 30mm 5mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana {
+        grid-template-columns: 15mm 30mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name {
+        grid-template-columns: 15mm 30mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name p.value {
+        font-size: 6pt;
+        letter-spacing: normal;
+    }
+
+    img {
+        position: absolute;
+        width: 155px;
+        margin: 5px auto;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday {
+        grid-template-columns: 15mm 30mm;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday span.mobile-responsive {
+        content: "\a";
+        white-space: pre;
+    }
+
+    main .resume .page .personal-data .contact-info {
+        grid-template-columns: 15mm 29.75mm auto;
+    }
+
+    main .resume .page .personal-data .contact-info .nationality {
+        grid-template-columns: 15mm 30mm;
+    }
+
+    main .resume .page .personal-data .contact-info .address {
+        grid-template-columns: 15mm 30mm;
+    }
+
+    main .resume .page .motivation {
+        grid-template-columns: 50mm auto;
+        grid-template-rows: repeat(3, 15mm);
+    }
+
+    main .resume .page .motivation .self-promotion p.value {
+        line-height: normal;
+    }
+
+    main .resume .page .motivation .marital-status {
+        grid-template-rows: 5mm 10mm;
+    }
+
+    main .resume .page .motivation .commuting-time {
+        grid-template-rows: 5mm 10mm;
+    }
+
+    main .resume .page .motivation .commuting-time .commuting-time-data {
+        grid-template-columns: auto 5mm 5mm 5mm 5mm;
+    }
+
+    main .resume .page .motivation .dependents {
+        grid-template-rows: 5mm 10mm;
+    }
+
+    main .resume .page .motivation .obligation-to-support-spouse {
+        grid-template-rows: 5mm 10mm;
+    }
+
+}
+
+/* Devices are as follows:
+    1. Pixel 3
+    2. Pixel 5
+    Target Width: 393px
+*/
+@media (min-width:393px) and (max-width:410px) {
+
+    main .resume .page .personal-data .basic-data .name-furigana p.label, 
+    main .resume .page .personal-data .basic-data .name-furigana p.value, 
+    .label, 
+    .value, 
+    .data-label, 
+    .date-value {
+        font-size: 5pt;
+    }
+
+    main .resume .page {
+        padding: 5mm;
+    }
+
+    main .resume .page .resume-header {
+        grid-template-columns: 15mm auto;
+    }
+
+    main .resume .page .resume-header .resume-title, 
+    main .resume .resume-header .resume-updated-date {
+        font-size: 10pt;
+    }
+
+    main .resume .page .personal-data .basic-data {
+        grid-template-columns: 10mm 32.5mm 8mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana p.label, 
+    main .resume .page .personal-data .basic-data .birthday p.label, 
+    main .resume .page .personal-data .contact-info .nationality p.label, 
+    main .resume .page .personal-data .contact-info .address p.label {
+        padding: 7.5px;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana {
+        grid-template-columns: 12mm 32.5mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name {
+        grid-template-columns: 12mm 32.5mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name p.value {
+        font-size: 3pt;
+        font-weight: bold;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday {
+        grid-template-columns: 12mm 32.5mm;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday span.mobile-responsive {
+        content: "\a";
+        white-space: pre;
+    }
+
+    img {
+        height: 206px;
+    }
+
+    main .resume .page .personal-data .contact-info {
+        grid-template-columns: 9.75mm 32.5mm;
+    }
+
+    main .resume .page .personal-data .contact-info .nationality {
+        grid-template-columns: 12mm 30mm;
+    }
+
+    main .resume .page .personal-data .contact-info .address {
+        grid-template-columns: 12mm 30mm;
+    }
+
+    main .resume .page .motivation {
+        grid-template-columns: repeat(2, 33%);
+    }
+
+    main .resume .page .motivation .commuting-time .commuting-time-data {
+        grid-template-columns: auto 10mm 10mm 10mm 10mm;
+    }
+
+    main .resume .page .motivation .self-promotion p.value {
+        padding: 5px;
+        line-height: 11.5px;
+    }
+
+}
+
+/* Devices are as follows:
+    1. Nexus 5X (412px)
+    2. Nexus 6 (412px)
+    3. Nexus 6P (412px)
+    4. Samsung Galaxy S20 Ultra (412px)
+    5. Samsung Galaxy A51/71 (412px)
+    6. Pixel 2 (411px)
+    7. Pixel 2 XL (411px)
+    8. iPhone XR (414px)
+    9. iPhone 6/7/8 Plus (414px)
+    Target Width: 411px, 412px, 414px
+*/
+@media (min-width:411px) and (max-width:415px) {
+
+    main .resume .page .personal-data .basic-data .name-furigana p.label, 
+    main .resume .page .personal-data .basic-data .name-furigana p.value, 
+    .label, 
+    .value, 
+    .data-label, 
+    .date-value {
+        font-size: 5pt;
+    }
+
+    main .resume .page {
+        padding: 5mm;
+    }
+
+    main .resume .page .resume-header {
+        grid-template-columns: 39mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data {
+        grid-template-columns: 17mm 30.25mm 8.5mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana {
+        grid-template-columns: 17mm 30mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name {
+        grid-template-columns: 17mm 30mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name p.value {
+        font-size: 7pt;
+        letter-spacing: normal;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday {
+        grid-template-columns: 17mm 30mm;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday span.mobile-responsive {
+        content: "\a";
+        white-space: pre;
+    }
+
+    main .resume .page .personal-data .contact-info {
+        grid-template-columns: 17mm 30mm auto;
+    }
+
+    main .resume .page .personal-data .contact-info .nationality {
+        grid-template-columns: 17mm 30mm;
+    }
+
+    main .resume .page .personal-data .contact-info .address {
+        grid-template-columns: 17mm 30mm;
+    }
+
+    main .resume .page .motivation {
+        grid-template-columns: repeat(2, 33%);
+    }
+
+    main .resume .page .motivation .commuting-time .commuting-time-data {
+        grid-template-columns: repeat(5, 20%);
+    }
+
+    main .resume .page .motivation .self-promotion p.value {
+        height: 190px;
+        line-height: 24.5px;
+        overflow: auto;
+    }
+}
+
+/* 
+    Target Width Range: 416px - 479px
+*/
+@media (min-width:416px) and (max-width:479px) {
+
+    main .resume .page .personal-data .basic-data .name-furigana p.label, 
+    main .resume .page .personal-data .basic-data .name-furigana p.value, 
+    .label, 
+    .value, 
+    .data-label, 
+    .date-value {
+        font-size: 5pt;
+    }
+
+    main .resume .page {
+        padding: 5mm;
+    }
+
+    main .resume .page .resume-header {
+        grid-template-columns: 39mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data {
+        grid-template-columns: 17mm 30.25mm 8.5mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana {
+        grid-template-columns: 17mm 30mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name {
+        grid-template-columns: 17mm 30mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name p.value {
+        font-size: 7pt;
+        letter-spacing: normal;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday {
+        grid-template-columns: 17mm 30mm;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday span.mobile-responsive {
+        content: "\a";
+        white-space: pre;
+    }
+
+    img {
+        height: 206px;
+    }
+
+    main .resume .page .personal-data .contact-info {
+        grid-template-columns: 17mm 30mm auto;
+    }
+
+    main .resume .page .personal-data .contact-info .nationality {
+        grid-template-columns: 17mm 30mm;
+    }
+
+    main .resume .page .personal-data .contact-info .address {
+        grid-template-columns: 17mm 30mm;
+    }
+
+    main .resume .page .motivation {
+        grid-template-columns: repeat(2, 33%);
+    }
+
+    main .resume .page .motivation .commuting-time .commuting-time-data {
+        grid-template-columns: repeat(5, 20%);
+    }
+
+    main .resume .page .motivation .self-promotion p.value {
+        height: 190px;
+        line-height: 24.5px;
+        overflow: auto;
+    }
+}
+
+/* Devices are as follows:
+    1. Nokia N9
+    Target Width: 480px
+*/
+@media (min-width:480px) and (max-width:539px) {
+
+    main .resume .page .personal-data .basic-data .name-furigana p.label, 
+    main .resume .page .personal-data .basic-data .name-furigana p.value, 
+    .label, 
+    .value, 
+    .data-label, 
+    .date-value {
+        font-size: 10pt;
+    }
+
+    main .resume .page {
+        padding: 5mm;
+    }
+
+    main .resume .page .personal-data .basic-data {
+        grid-template-columns: 20mm 44mm 10mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana {
+        grid-template-columns: 25mm 38.5mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name {
+        grid-template-columns: 25mm 38.5mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name p.value {
+        font-size: 5pt;
+        font-weight: bold;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday {
+        grid-template-columns: 25mm 38.5mm;
+    }
+
+    img {
+        height: 205px;
+    }
+
+    main .resume .page .personal-data .contact-info {
+        grid-template-columns: 20mm 38mm auto;
+    }
+
+    main .resume .page .personal-data .contact-info .nationality {
+        grid-template-columns: 25mm 38.5mm;
+    }
+
+    main .resume .page .personal-data .contact-info .address {
+        grid-template-columns: 20mm 37.5mm;
+    }
+
+    main .resume .page .motivation {
+        grid-template-columns: repeat(2, 40mm);
+    }
+
+    main .resume .page .motivation .commuting-time .commuting-time-data {
+        grid-template-columns: repeat(5, 20%);
+    }
+
+    main .resume .page .motivation .self-promotion p.value {
+        height: 150px;
+        line-height: 22px;
+        overflow: auto;
+    }
+}
+
+/* Devices are as follows:
+    1. Surafce Duo
+    Target Width: 540px
+*/
+@media (min-width:540px) and (max-width:599px) {
+
+    main .resume .page .personal-data .basic-data .name-furigana p.label, 
+    main .resume .page .personal-data .basic-data .name-furigana p.value, 
+    .label, 
+    .value, 
+    .data-label, 
+    .date-value {
+        font-size: 10pt;
+    }
+
+    main .resume .page {
+        padding: 5mm;
+    }
+
+    main .resume .page .personal-data .basic-data {
+        grid-template-columns: 20mm 55mm 14mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana {
+        grid-template-columns: 20mm 55mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name {
+        grid-template-columns: 20mm 55mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name p.value {
+        font-size: 8pt;
+        font-weight: bold;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday {
+        grid-template-columns: 20mm 55mm;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday span.mobile-responsive {
+        content: "\a";
+        white-space: pre;
+    }
+
+    img {
+        width: 162px;
+    }
+
+    main .resume .page .personal-data .contact-info {
+        grid-template-columns: 20mm 54.75mm auto;
+    }
+
+    main .resume .page .personal-data .contact-info .nationality {
+        grid-template-columns: 20mm 54.75mm;
+    }
+
+    main .resume .page .personal-data .contact-info .address {
+        grid-template-columns: 20mm 54.75mm;
+    }
+
+    main .resume .page .motivation {
+        grid-template-columns: repeat(2, 33%);
+    }
+
+    main .resume .page .motivation .commuting-time .commuting-time-data {
+        grid-template-columns: repeat(5, 20%);
+    }
+
+    main .resume .page .motivation .self-promotion p.value {
+        height: 150px;
+        line-height: 22px;
+        overflow: auto;
+    }
+}
+
+/* Devices are as follows:
+    1. BlackBerry PlayBook
+    2. Nexus 7
+    Target Width: 600px
+*/
+@media (min-width:600px) and (max-width:639px) {
+
+    main .resume .page .personal-data .basic-data .name-furigana p.label, 
+    main .resume .page .personal-data .basic-data .name-furigana p.value, 
+    .label, 
+    .value, 
+    .data-label, 
+    .date-value {
+        font-size: 10pt;
+    }
+
+    main .resume .page .personal-data .basic-data .name p.value {
+        font-size: 10pt;
+        letter-spacing: 2px;
+    }
+
+    main .resume .page {
+        padding: 5mm;
+    }
+
+    main .resume .page .personal-data .basic-data {
+        grid-template-columns: 25mm 60.25mm 20mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana {
+        grid-template-columns: 25mm 60mm 20mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name {
+        grid-template-columns: 25mm 60mm 20mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday {
+        grid-template-columns: 25mm 60mm 20mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday span.mobile-responsive {
+        content: "\a";
+        white-space: pre;
+    }
+
+    img {
+        height: 206px;
+    }
+
+    main .resume .page .personal-data .contact-info {
+        grid-template-columns: 25mm 60mm 20mm auto;
+    }
+
+    main .resume .page .personal-data .contact-info .nationality {
+        grid-template-columns: 25mm auto;
+    }
+
+    main .resume .page .personal-data .contact-info .address {
+        grid-template-columns: 25mm auto;
+    }
+
+    main .resume .page .motivation .self-promotion p.label {
+        padding: 5px;
+    }
+
+    main .resume .page .motivation .self-promotion p.value {
+        height: 180px;
+        line-height: 15px;
+        padding: 5px;
+        overflow: auto;
+    }
+}
+
+/* Devices are as follows:
+    1. Microsoft Lumia 550
+    Target Width: 640px
+*/
+@media (min-width:640px) and (max-width:711px) {
+
+    main .resume .page .personal-data .basic-data .name-furigana p.label, 
+    main .resume .page .personal-data .basic-data .name-furigana p.value, 
+    .label, 
+    .value, 
+    .data-label, 
+    .date-value {
+        font-size: 10pt;
+    }
+
+    main .resume .page {
+        padding: 5mm;
+    }
+
+    main .resume .page .personal-data .basic-data {
+        grid-template-columns: 25mm 71mm 20mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana {
+        grid-template-columns: 25mm 71mm 20mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name {
+        grid-template-columns: 25mm 71mm 20mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name p.value {
+        font-size: 12pt;
+        font-weight: bold;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday {
+        grid-template-columns: 25mm 71mm;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday span.mobile-responsive {
+        content: "\a";
+        white-space: pre;
+    }
+
+    img {
+        height: 206px;
+    }
+
+    main .resume .page .personal-data .contact-info {
+        grid-template-columns: 25mm 70.5mm auto;
+    }
+
+    main .resume .page .personal-data .contact-info .nationality {
+        grid-template-columns: 25mm 70mm auto;
+    }
+
+    main .resume .page .personal-data .contact-info .phone-number {
+        grid-template-columns: auto;
+        grid-column: 3 / 4;
+    }
+
+    main .resume .page .personal-data .contact-info .address {
+        grid-template-columns: 25mm 70mm auto;
+    }
+
+    main .resume .page .personal-data .contact-info .email {
+        grid-template-columns: auto;
+        grid-column: 3 / 4;
+    }
+
+    main .resume .page .motivation .self-promotion p.value {
+        height: 155px;
+        line-height: 20px;
+        overflow: auto;
+    }
+
+    main .resume .page .objective table thead tr.primary-heading th.label {
+        padding: 5px 15px;
+    }
+}
+
+/* Devices are as follows:
+    1. Galaxy Tab S4
+    Target Width: 712px
+*/
+@media (min-width:712px) and (max-width:767px) {
+
+    main .resume .page .personal-data .basic-data .name-furigana p.label, 
+    main .resume .page .personal-data .basic-data .name-furigana p.value, 
+    .label, 
+    .value, 
+    .data-label, 
+    .date-value {
+        font-size: 10pt;
+    }
+
+    main .resume .page {
+        padding: 5mm;
+    }
+
+    main .resume .page .personal-data .basic-data {
+        grid-template-columns: 25mm 100mm 10mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana {
+        grid-template-columns: 25mm 100mm 10mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name {
+        grid-template-columns: 25mm 100mm 10mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name p.value {
+        font-size: 20pt;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday {
+        grid-template-columns: 25mm 100mm 10mm auto;
+    }
+
+    img {
+        height: 206px;
+    }
+
+    main .resume .page .personal-data .contact-info {
+        grid-template-columns: 25mm 80mm auto;
+    }
+
+    main .resume .page .personal-data .contact-info .nationality {
+        grid-template-columns: 25mm 80mm;
+    }
+
+    main .resume .page .personal-data .contact-info .address {
+        grid-template-columns: 25mm 80mm;
+    }
+
+    main .resume .page .motivation .self-promotion p.value {
+        height: 165px;
+        line-height: 15px;
+        padding: 5px;
+        overflow: auto;
+    }
+
+}
+
+/* Devices are as follows:
+    1. iPad Mini
+    2. iPad
+    Target Width: 768px
+*/
+@media (min-width:768px) and (max-width:799px) {
+
+    main .resume .page .personal-data .basic-data .name-furigana p.label, 
+    main .resume .page .personal-data .basic-data .name-furigana p.value, 
+    .label, 
+    .value, 
+    .data-label, 
+    .date-value {
+        font-size: 10pt;
+    }
+
+    main .resume .page {
+        padding: 5mm;
+    }
+
+    main .resume .page .personal-data .basic-data {
+        grid-template-columns: 25mm 100mm 10mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana {
+        grid-template-columns: 25mm 100mm 10mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name {
+        grid-template-columns: 25mm 100mm 10mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name p.value {
+        font-size: 20pt;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday {
+        grid-template-columns: 25mm 100mm 10mm auto;
+    }
+
+    img {
+        width: 162px;
+        margin: 0 29px;
+    }
+
+    main .resume .page .personal-data .contact-info {
+        grid-template-columns: 25mm 80mm auto;
+    }
+
+    main .resume .page .personal-data .contact-info .nationality {
+        grid-template-columns: 25mm 80mm;
+    }
+
+    main .resume .page .personal-data .contact-info .address {
+        grid-template-columns: 25mm 80mm;
+    }
+
+    main .resume .page .motivation .self-promotion p.value {
+        height: 165px;
+        line-height: 15px;
+        padding: 5px;
+        overflow: auto;
+    }
+
+}
+
+/* Devices are as follows:
+    1. Kindle Fire HDX
+    2. Nexus 10
+    Target Width: 800px
+*/
+@media (min-width:800px) and (max-width:819px) {
+
+    main .resume .page {
+        padding: 5mm;
+    }
+
+    main .resume .page .personal-data .basic-data {
+        grid-template-columns: 30mm 98mm 30mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name p.value {
+        font-size: 20pt;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    img {
+        height: 206px;
+    }
+
+    main .resume .page .personal-data .contact-info {
+        grid-template-columns: 30mm 98mm auto;
+    }
+
+    main .resume .page .personal-data .contact-info .nationality {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    main .resume .page .personal-data .contact-info .address {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    main .resume .page .motivation .self-promotion p.value {
+        height: 170px;
+        padding: 5px;
+        overflow: auto;
+    }
+}
+
+/* Devices are as follows:
+    1. iPad Air
+    Target Width: 820px
+*/
+@media (min-width:820px) and (max-width:911px) {
+
+    main .resume .page {
+        padding: 5mm;
+    }
+
+    main .resume .page .personal-data .basic-data {
+        grid-template-columns: 30mm 98mm 30mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name p.value {
+        font-size: 20pt;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    img {
+        width: 162px;
+        margin: 0 10px;
+    }
+
+    main .resume .page .personal-data .contact-info {
+        grid-template-columns: 30mm 98mm auto;
+    }
+
+    main .resume .page .personal-data .contact-info .nationality {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    main .resume .page .personal-data .contact-info .address {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    main .resume .page .motivation .self-promotion p.value {
+        height: 170px;
+        padding: 5px;
+        overflow: auto;
+    }
+}
+
+/* Devices are as follows:
+    1. Surface Pro 7
+    Target Width: 912px
+*/
+@media (min-width:912px) and (max-width:1023px) {
+
+    main .resume .page {
+        padding: 5mm;
+    }
+
+    main .resume .page .personal-data .basic-data {
+        grid-template-columns: 30mm 98mm 30mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name p.value {
+        font-size: 20pt;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    img {
+        width: 162px;
+        margin: 0 65px;
+    }
+
+    main .resume .page .personal-data .contact-info {
+        grid-template-columns: 30mm 98mm auto;
+    }
+
+    main .resume .page .personal-data .contact-info .nationality {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    main .resume .page .personal-data .contact-info .address {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    main .resume .page .motivation .self-promotion p.value {
+        height: 170px;
+        padding: 5px;
+        overflow: auto;
+    }
+}
+
+/* Devices are as follows:
+    1. Nest Hub
+    2. iPad Pro
+    Target Width: 1024px
+*/
+@media (min-width:1024px) and (max-width:1279px) {
+
+    main .resume .page {
+        padding: 5mm;
+    }
+
+    main .resume .page .personal-data .basic-data {
+        grid-template-columns: 35mm 140mm 43mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name p.value {
+        font-size: 20pt;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    img {
+        width: 162px;
+    }
+
+    main .resume .page .personal-data .contact-info {
+        grid-template-columns: 30mm 98mm auto;
+    }
+
+    main .resume .page .personal-data .contact-info .nationality {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    main .resume .page .personal-data .contact-info .address {
+        grid-template-columns: 30mm 98mm;
+    }
+
+    main .resume .page .motivation .self-promotion p.value {
+        height: 170px;
+        padding: 5px;
+        overflow: auto;
+    }
+}
+
+/* Devices are as follows:
+    1. Nest Hub Max
+    Target Width: 1280px
+*/
+@media (min-width:1280px) and (max-width:1679px) {
+
+    main .resume .page {
+        padding: 5mm;
+    }
+
+    main .resume .page .personal-data .basic-data {
+        grid-template-columns: 35mm 207mm 43mm auto;
+    }
+
+    main .resume .page .personal-data .basic-data .name-furigana {
+        grid-template-columns: 30mm 207mm;
+    }
+
+    main .resume .page .personal-data .basic-data .name {
+        grid-template-columns: 30mm 207mm;
+    }
+
+    main .resume .page .personal-data .basic-data .birthday {
+        grid-template-columns: 30mm 207mm;
+    }
+
+    img {
+        width: 162px;
+    }
+
+    main .resume .page .personal-data .contact-info {
+        grid-template-columns: 30mm 211.75mm auto;
+    }
+
+    main .resume .page .personal-data .contact-info .nationality {
+        grid-template-columns: 30mm 211.75mm;
+    }
+
+    main .resume .page .personal-data .contact-info .address {
+        grid-template-columns: 30mm 211.75mm;
+    }
+
+    main .resume .page .motivation .self-promotion p.value {
+        height: 170px;
+        padding: 5px;
+        overflow: auto;
+    }
+}
